@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Registration Form</title>
+    </head>
+    <body>
+        <h1><strong>Registration Form</strong></h1>
+            <form action="/process" method="post">
+            <div>
+                <label>First Name:* </label>
+                <input type="text" placeholder="" >
+            </div>
+            <div>
+                <label>Last Name:* </label>
+                <input type="text" placeholder="" >
+            </div>
+            <div>
+                <label>Email Address:* </label>
+                <input type="text" placeholder="" >
+            </div>
+            <div>
+                <label>Password:* </label>
+                <input type="password" placeholder="" >
+            </div>
+            <div>
+                <label>Confirm Password:* </label>
+                <input type="password" placeholder="" >
+            </div>
+            <div>
+                <label>Birthday:* </label>
+                <input type="date" placeholder="mm/dd/yyyy" >
+            </div>
+            <p>Gender Identity:</p>
+                <input type="radio" name="font" value="Male" id="Male"
+                <label for="Male"><strong>Male</strong><label>
+                <input type="radio" name="font" value="Female" id="Female"
+                <label for="Female"><strong>Female</strong><label>
+                <input type="radio" name="font" value="Non-binary" id="Non-primary"
+                <label for="Non-binary"><strong>Non-binary</strong><label>
+                <input type="radio" name="font" value="I prefer not to answer" id="I prefer not to answer"
+                <label for="I prefer not to answer"><strong>I prefer not to answer</strong><label>
+            <div>
+                <p>A short description about myself:</p>
+                <textarea name="comment" cols="40" rows="5"textarea>
+                </textarea>
+            </div>
+                <p>Favorite Language:</p>
+                <select name="languages">
+                    <option>HTML</option>
+                    <option>Python</option>
+                    <option>MERN</option>
+                    <option>Javascript</option>
+                </select>
+            <div>
+                <input type="checkbox" name="offers" id="offers">
+            <label for="offers">Yes, I would like to receive periodic email update</label>
+            </div>
+            <div>
+                <form action="/action_page.php">
+                    <input type="submit" value="Create Account">
+                </form>
+            </div>
+
+    </body>
+</html>
