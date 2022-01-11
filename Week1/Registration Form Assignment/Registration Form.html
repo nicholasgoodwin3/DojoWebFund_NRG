@@ -9,6 +9,7 @@
     <body>
         <h1><strong>Registration Form</strong></h1>
             <form action="/process" method="post">
+            </form>
             <div>
                 <label>First Name:* </label>
                 <input type="text" placeholder="" >
@@ -31,20 +32,20 @@
             </div>
             <div>
                 <label>Birthday:* </label>
-                <input type="date" placeholder="mm/dd/yyyy" >
+                <input type="date" name="dob" >
             </div>
             <p>Gender Identity:</p>
-                <input type="radio" name="font" value="Male" id="Male"
-                <label for="Male"><strong>Male</strong><label>
-                <input type="radio" name="font" value="Female" id="Female"
-                <label for="Female"><strong>Female</strong><label>
-                <input type="radio" name="font" value="Non-binary" id="Non-primary"
-                <label for="Non-binary"><strong>Non-binary</strong><label>
-                <input type="radio" name="font" value="I prefer not to answer" id="I prefer not to answer"
-                <label for="I prefer not to answer"><strong>I prefer not to answer</strong><label>
+                <input type="radio" name="font" id="Male"
+                label for="Male"><strong>Male</strong>
+                <input type="radio" name="font" id="Female"
+                label for="Female"><strong>Female</strong>
+                <input type="radio" name="font" id="Non-primary"
+                label for="Non-binary"><strong>Non-binary</strong>
+                <input type="radio" name="font" id="I prefer not to answer"
+                label for="I prefer not to answer"><strong>I prefer not to answer</strong>   
             <div>
                 <p>A short description about myself:</p>
-                <textarea name="comment" cols="40" rows="5"textarea>
+                <textarea name="comment" cols="40" rows="5" textarea>
                 </textarea>
             </div>
                 <p>Favorite Language:</p>
@@ -63,6 +64,7 @@
                     <input type="submit" value="Create Account">
                 </form>
             </div>
+            <p>* Indicates a required field</p>
 
     </body>
 </html>
