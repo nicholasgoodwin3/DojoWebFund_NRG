@@ -1,0 +1,52 @@
+body {
+    background-color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header {
+    background-color: lightseagreen;
+    height: 125px;
+    margin-bottom: 70px;
+}
+
+.user-card {
+    width: auto;
+    background-color: white;
+    border: 2px solid black;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.body {
+    padding: 20px;
+}
+
+.body h1,
+.body h2,
+.body h3,
+.body p {
+    margin: 20px;
+}
+
+.profile-emb {
+    border-radius: 50%;
+    background-color: black;
+    height: 180px;
+    padding: 5px;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 1.2rem;
+}
+
+.icon {
+    height: 20px;
+}
