@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojoweather</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="top">
+        <div class="nav">
+            <h1>Dojoweather!</h1>
+            <ul class="link">
+                <l1 onclick="loading()"><a href="#">Burbank</a></l1>
+                <li onclick="loading()"><a href="#">Chicago</a></li>
+                <li onclick="loading()"><a href="#">Dallas</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="container">
+        <div class="subtitle">
+            <h2>San Jose</h2>
+            <form>
+                <label>Show tempature in</label>
+                <select name="temp-scale" onchange="convert(this)">
+                    <option>°C</option>
+                    <option>°F</option>
+                </select>
+            </form>
+        </div>
+        <div class="row">
+            <div class="weather">
+                <h1>Today</h1>
+                <img src="C:\Users\swift\Documents\DojoWebFund_NRG\Week3\Dojo Weather\dojoweather\some_rain.png" alt="rain">
+                <p>some rain</p>
+                <p class="temp">
+                    <span class="high" id="temp1">24</span>
+                    <span class="low" id="temp2">18</span>
+                </p>
+            </div>
+            <div class="weather">
+                <h1>Tommorow</h1>
+                <img src="C:\Users\swift\Documents\DojoWebFund_NRG\Week3\Dojo Weather\dojoweather\some_sun.png" alt="sunshine">
+                <p>sunshine</p>
+                <p class="temp">
+                    <span class="high" id="temp3">27</span>
+                    <span class="low" id="temp4">19</span>
+                </p>
+            </div>
+            <div class="weather">
+                <h1>Friday</h1>
+                <img src="C:\Users\swift\Documents\DojoWebFund_NRG\Week3\Dojo Weather\dojoweather\some_clouds.png" alt="sunshine">
+                <p>some clouds</p>
+                <p class="temp">
+                    <span class="high" id="temp5">21</span>
+                    <span class="low" id="temp6">16</span>
+                </p>
+            </div>
+            <div class="weather">
+                <h1>Saturday</h1>
+                <img src="C:\Users\swift\Documents\DojoWebFund_NRG\Week3\Dojo Weather\dojoweather\some_sun.png" alt="sunshine">
+                <p>sunshine</p>
+                <p class="temp">
+                    <span class="high" id="temp7">26</span>
+                    <span class="low" id="temp8">21</span>
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="bottom">
+        <div class="cookie">
+            <img src="C:\Users\swift\Documents\DojoWebFund_NRG\Week3\Dojo Weather\dojoweather\cookie.png" alt="cookie">
+            <div class="insert">
+                <h2>Stop! Cookie time.</h2>
+                <p>We use cookies (sadly not the edible ones) to personalize content and ads, to provide social media features and to analyze our site traffic.<a href="#">Read more...</a></p>
+            </div>
+            <button class="button" onclick="accept()">Accept</button>
+        </div>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
